@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "corvus",
+  "version": "${version}",
+  "name": "Corvus Client",
+  "description": "Corvus Client: KillAura, ESP, Target HUD, ServerHelper, GUI",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.corvus.CorvusClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
